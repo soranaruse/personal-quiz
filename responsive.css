@@ -1,0 +1,160 @@
+@media screen and (max-width: 959px) {
+  main {
+    width: 90%;
+  }
+
+  #choices > li {
+    font-size: 20px;
+  }
+
+  #btn {
+    font-size: 20px;
+  }
+
+  #title-wrapper {  
+    width: 130px;
+    margin-bottom: 10px;
+  }
+  
+  #title {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 559px) {
+  main {
+    width: 90%;
+  }
+
+  #question {
+    font-size: 18px;
+  }
+
+  #choices > li {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  #btn {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .modal {
+    width: 345px;
+    height: 460px;
+  }
+
+  .modal-container {
+    width: 315px;
+    margin: 15px;
+  }
+
+  .modal-container h2 {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+
+  .modal-container span {
+    font-size: 24px;
+  }
+
+  .modal-container p {
+    font-size: 18px;
+  }
+
+  #achieve {
+    font-size: 24px;
+  }
+
+  .achieve-wrapper {
+    padding: 35px 0;
+    margin: 15px 0 15px;
+  }
+
+  .btn-return {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  #title-wrapper {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  #title {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    width: 90%;
+  }
+
+  #question {
+    font-size: 14px;
+  }
+
+  #choices > li {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  #btn {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .modal {
+    width: 290px;
+    height: 400px;
+    border-radius: 12px;
+  }
+
+  .modal-container {
+    width: 290px;
+    margin: 15px;
+  }
+
+  .modal-container h2 {
+    margin-top: 25px;
+    font-size: 28px;
+  }
+
+  .modal-container span {
+    font-size: 24px;
+  }
+
+  .modal-container p {
+    font-size: 16px;
+  }
+
+  #achieve {
+    font-size: 20px;
+  }
+
+  .achieve-wrapper {
+    padding: 25px 0;
+    margin: 15px 0 15px;
+  }
+
+  .btn-return {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  #title-wrapper {
+    width: 80px;
+  }
+  
+  #title {
+    font-size: 12px;
+  }
+
+}
