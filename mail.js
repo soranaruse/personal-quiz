@@ -112,17 +112,17 @@
 
   function checkAnswer(li) {
     if (isAnswered === true) {
-      return
+      return;
     }
     isAnswered = true;
 
     if (li.textContent === quizSet[currentNum].c[0]) {
-      title.textContent = '正解'
+      title.textContent = '正解';
       li.classList.add('correct');
       titleWrapper.classList.add('correct');
       score++;
     } else {
-      title.textContent = '違う'
+      title.textContent = '違う';
       titleWrapper.classList.add('wrong');
       li.classList.add('wrong');
     }
@@ -199,7 +199,7 @@
 
     } else {
       currentNum++;
-      quizNum++
+      quizNum++;
       setQuiz();
     }
   });
