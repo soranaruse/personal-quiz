@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>クイズ</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'ytt5hfg',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+
+</head>
+<body>
+
+  <div id="modalWrapper">
+    <div class="modal">
+      <div class="modal-container">
+        <h2>あなたの結果</h2>
+        <p><span id="scoreLabel"></span>　を正解</p>
+        <div class="achieve-wrapper">
+          <p>あなたは</p>
+          <p id="achieve"></p>
+        </div>
+        <a href="index.html" id="btn-return" class="btn-return"> 再挑戦する？</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <header>
+    <svg class="top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,138.7C640,139,800,181,960,181.3C1120,181,1280,139,1360,117.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+  </header>
+  
+  <main>
+    <div id="title-wrapper">
+      <p id="title">1 / 20 問</p>
+    </div>
+    <div class="container">
+      <p id="question"></p>
+      <ul id="choices">
+      </ul>
+    <div id="btn" class="disabled">つぎ！</div>
+  </main>
+
+  <footer>
+    <svg class="under" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,197.3C384,213,480,235,576,234.7C672,235,768,213,864,186.7C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
